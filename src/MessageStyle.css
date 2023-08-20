@@ -1,0 +1,31 @@
+.message-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  .message-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .message-exit {
+    opacity: 1;
+  }
+  
+  .message-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .no-investment-message {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+  }
+  
+  /* You can add more styles here */
+  

@@ -1,0 +1,34 @@
+/* Add modern typography and layout to the whole app */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Center elements on the screen */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Stylish and animated message for no investment calculated */
+  .no-investment-message {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    color: #f11010;
+  }
+  
+  /* Emoji styling */
+  .emoji {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
